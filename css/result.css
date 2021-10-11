@@ -1,0 +1,127 @@
+@font-face {
+  font-family: 'yg-jalnan';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+#result {
+  display: none;
+  text-align: center;
+}
+
+.resultdefault{
+  font-family: 'yg-jalnan';
+  font-size: 12px;
+  white-space: nowrap;
+}
+.resultperson{
+  font-family: 'yg-jalnan';
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.resultname{
+  font-family: 'yg-jalnan';
+  font-size: 50px;
+  white-space: nowrap;
+  text-align: center;
+}
+#resultImg{
+  width:auto;
+  height:inherit;
+  max-height:100%;
+}
+@font-face {
+  font-family: 'Cafe24SsurroundAir';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#resultDesc{
+  background-color: #F2F2F2;
+  text-align: left;
+  border-radius: 20px;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  white-space: pre-line;
+}
+.bestsection{
+  margin-top:20px;
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.besttitle{
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+.bestresult{
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.worstsection{
+  background-color: #F2F2F2;
+  border-radius: 20px;
+  width: 90%;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.worsttitle{
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.worstresult{
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 15px;
+  text-align: center;
+  white-space: pre-line;
+}
+
+.kakao{
+  color: #F2F2F2;
+  background-color: #6A7DBA;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.kakao:hover, .kakao:focus {
+  background-color: #F2F2F2;
+  color: #6A7DBA
+}
+
+.return{
+  color: #F2F2F2;
+  background-color: #6A7DBA;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.return:hover, .return:focus {
+  background-color: #F2F2F2;
+  color: #6A7DBA
+}
