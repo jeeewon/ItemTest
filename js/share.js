@@ -1,3 +1,13 @@
+const url="https://jeeewon.github.io/ItemTest/";
+
+function setShare(){
+    var resultImg = document.querySelector('#resultImg');
+    var resultAlt = resultImg.firstElementChild.alt;
+    const shareTitle = '아이템 테스트 결과';
+    const shareDes = infoList[resultAlt].name;
+    const shareImage = url+'img/resultimage-'+resultAlt+'.png';
+    const shareURL = url + 'page/result-'+resultAlt+'.html';
+}
 function kakaoShare(){
     Kakao.API.request({
         url: '/v2/api/talk/memo/default/send',

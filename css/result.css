@@ -132,3 +132,17 @@
   background-color: #F2F2F2;
   color: #6A7DBA
 }
+
+.gohome{
+  color: #F2F2F2;
+  background-color: #6A7DBA;
+  font-family: 'Cafe24SsurroundAir';
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.gohome:hover, .gohome:focus {
+  background-color: #F2F2F2;
+  color: #6A7DBA
+}
