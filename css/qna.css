@@ -1,0 +1,45 @@
+#qna{
+  display: none;    
+  background-color: #F2F2F2;  
+  border-radius: 20px; 
+ /* width:auto;*/
+}
+
+.qBox{
+  font-family: 'BMJUA';
+  text-align: center;
+/*  border-radius: 20px; */
+  font-size: 25px;
+  width: 80%
+}
+
+.answerList{
+  font-family: 'BMJUA';
+  text-align:center;   /*텍스트 가운데 배치*/
+  background-color: #A8B3D7;
+  border-radius: 20px; 
+  font-size: 20px;
+  display: block;
+  width: 80%;
+  border: 0px;
+  height: auto;
+}
+
+
+.answerList:hover, .answerList:focus{ /*버튼 클릭 시 이벤트*/
+  background-color: #A8B3D7;
+  color: #F2F2F2;  
+}
+
+
+.status{
+  height: 30px;
+  background-color:#F2F2F2;
+  border-radius: 20px;
+}
+
+.statusBar{
+  height:100%;
+  background-color: midnightblue;
+  border-radius: 17px;
+}
