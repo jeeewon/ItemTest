@@ -1,4 +1,4 @@
-const url="https://jeeewon.github.io/ItemTest/";
+/*const url="https://jeeewon.github.io/ItemTest/";
 
 function setShare(){
     var resultImg = document.querySelector('#resultImg');
@@ -69,4 +69,4 @@ function kakaoShare(){
           console.log(error);
         },
       });
-}
+    }*/
